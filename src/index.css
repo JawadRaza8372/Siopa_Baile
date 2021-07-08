@@ -1,0 +1,223 @@
+*{
+  margin: 0;
+  }
+  
+  section{
+      width: 100%;
+      height:100vh;
+  }
+
+.textLeftAlign{
+  text-transform:capitalize;
+  text-align:left;
+}
+.tBpadding20{padding-top :20px;
+  padding-bottom:20px
+}
+.leftUnderlineText{
+  text-decoration:underline;
+  text-transform:capitalize;
+  text-align:left
+}
+.seacrhForm{
+  background:white;
+  max-width:760px !important;
+  border-radius:30px;
+  padding: 5px;
+}
+.searchInput{
+  width:100%;
+  outline-width:0;
+  border-radius:30px;
+  border:none;
+  padding-left:15px;
+  padding-right:15px;
+  padding-top:5px;
+  padding-Bottom:5px
+}
+.productDetaildiv{
+  padding-left:120px !important;
+  padding-right:120px !important;
+  padding-top: 40px !important;
+}
+.commentsbox{
+  max-width:760px;
+  height:400px;
+  overflow-x:hidden;
+  overflow-y:auto;
+  margin-top:20px;
+  margin-bottom:20px
+}
+.formInput{
+  border-radius: 5px;
+  padding:10px;
+  outline-width: 0;
+  border: 2px solid #5bccf6;
+  color: Black;
+  width: 100%;
+  margin-bottom: 30px;
+  background-color: transparent;
+}
+.formInput:hover{
+  border: 1px solid black !important ;
+  font-size: 18px !important;
+}
+ 
+.mydropdown{
+width: 100%;
+height: 45px;
+margin-bottom: 30px;
+padding-left: 10px;
+border-radius:10px;
+padding-right: 10px;
+color: #5bccf6;
+outline-width: 0;
+border:1px solid #5bccf6 !important;
+background-color: transparent;
+}
+.formHeading{
+  color: Black;
+  margin-bottom: 30px;
+  text-align: center;
+  text-transform: capitalize;
+  text-decoration: underline;
+}
+.heading{
+  color: #5bccf6;
+  text-transform: capitalize;
+  text-decoration: underline;
+}
+.formAddproduct{
+  border:2px solid white;
+  border-radius:10px;
+  overflow-x:hidden;
+  background-color: white;
+  overflow-y:auto;
+  padding:20px;
+  display:flex;
+  flex-direction:column
+}
+.middlediv{
+  display:grid;
+  place-items:center;
+  height:88vh;
+  overflow:hidden
+}
+.productCrouselheadings{
+  text-align:center;
+  text-transform:capitalize;
+  text-decoration:underline;
+  letter-spacing:2px;
+  color: Black;
+  margin-bottom: 40px;
+  margin-top: 60px;
+}
+.productCarouseldiv{
+  background:transparent;
+  padding:10px;
+  border-radius:20px;
+  border:2px solid black
+
+}
+.header_img{
+  text-align: right;
+  padding: 5px;
+}
+.animated{
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+@keyframes up-down{
+  0%{
+    transform:translateY(10px)
+  }
+  100%{
+    transform:translateY(-10px)
+  }
+}
+@keyframes up-down{
+  0%{
+    transform:translateY(10px)
+  }
+  100%{
+    transform:translateY(-10px)
+  }
+}
+@keyframes up-down{
+  0%{
+    transform:translateY(10px)
+  }
+  100%{
+    transform:translateY(-10px)
+  }
+}
+@keyframes up-down{
+  0%{
+    transform:translateY(10px)
+  }
+  100%{
+    transform:translateY(-10px)
+  }
+}
+.myButton{
+  background-color: transparent;
+  border: 1px solid #5bccf6;
+  border-radius: 10px;
+  color: #5bccf6;
+  padding-top:10px;
+  padding-bottom: 10px;
+  padding-left:20px ;
+  padding-right: 20px;
+  text-decoration: none !important;
+  font-weight: bold;
+}
+.myButton:hover{
+  color:black !important;
+  background-color: #5bccf6 !important;
+}
+.myButton2{
+  background-color: transparent;
+  border: 1px solid black;
+  border-radius: 10px;
+  color: black;
+  padding-top:10px;
+  padding-bottom: 10px;
+  padding-left:20px ;
+  padding-right: 20px;
+  text-decoration: none !important;
+  font-weight: bold;
+}
+.myButton2:hover{
+  color:white !important;
+  background-color: black !important;
+}
+.MyCardMainDiv{
+  background: white;
+  border:1px solid white;
+  padding:20px;
+  overflow:hidden;
+  max-width:420px;
+  min-width:340px;
+  height:420px;
+  border-radius:20px
+}
+.MyCardMainDiv2{
+  background:white;
+  border:1px solid white;
+  padding:20px;
+  overflow:hidden;
+  max-width:420px;
+  min-width:250px;
+  height:420px;
+  border-Radius:20px
+}
+.myCardMiniDiv{
+  height:65%;
+  margin-top:30px;
+  margin-bottom:30px
+}
+.MyCardImage{
+  width: 100%;
+  height:100%;
+  border-radius:20px;
+  object-fit:fill;
+}
