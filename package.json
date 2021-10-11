@@ -11,6 +11,7 @@
     "axios": "^0.20.0",
     "bootstrap": "^5.0.2",
     "firebase": "^7.23.0",
+    "firebase-tools": "^9.20.0",
     "moment": "^2.29.0",
     "react": "^16.13.1",
     "react-alice-carousel": "^2.5.1",

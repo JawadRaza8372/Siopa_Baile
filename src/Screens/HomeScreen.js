@@ -1,14 +1,12 @@
-import React from 'react'
-import HomeSection from '../Components/HomeSection'
-
+import React from "react";
+import HomeSection from "../Components/HomeSection";
 
 function HomeScreen() {
-    return (
-        <>
-            <HomeSection/>
-           
-        </>
-    )
+  return (
+    <>
+      <HomeSection />
+    </>
+  );
 }
 
-export default HomeScreen
+export default HomeScreen;
